@@ -10,15 +10,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gluten:wght@500&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <h1 class="title">Connect Four Game</h1>
-  <div class="rules">Enter Player1 and Player2 color!</div>
+  <div class="rules">Select Player1 and Player2 color!</div>
   <div class="rules">Press Start Game to start! Enjoy it!</div>
   <div>
-    <input id="p1-color" placeholder="Player 1 color">
-    <input id="p2-color" placeholder="Player 2 color">
+    <label>Player1</label>
+    <input id="p1-color" type="color" value="#3348e6">
+    <label>Player2</label>
+    <input id="p2-color" type="color" value="#e66465">
   </div>
   <div>
     <button id="start-game">Start Game!</button>

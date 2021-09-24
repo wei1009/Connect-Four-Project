@@ -13,6 +13,14 @@ body {
   color:#1C1D22;
 }
 
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size:1.5vw;
+  margin: 0;
+  text-align: center;
+}
+
+
 .rules {
   font-family: 'Architects Daughter', cursive;
   font-size:1.75vw;
